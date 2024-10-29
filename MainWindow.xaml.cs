@@ -26,5 +26,14 @@ namespace AdvancedColorPicker
             colorName.Text = $"Current color: {e.NewValue}";
             this.Background = new SolidColorBrush(e.NewValue ?? Colors.White);
         }
+
+        public void ChangeColor2(object sender, RoutedEventArgs e)
+        {
+            Random rnd = new Random();
+            int f1 = rnd.Next(1, 256);
+            int f2 = rnd.Next(1, 256);
+            int f3 = rnd.Next(1, 256);
+            colorName2.Foreground = new SolidColorBrush(Color.FromRgb((byte)f1, (byte)f2, (byte)f3));
+        }
     }
 }

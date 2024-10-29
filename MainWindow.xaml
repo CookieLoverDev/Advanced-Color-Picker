@@ -8,9 +8,15 @@
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         Title="Advanced Color Picker" Height="450" Width="800">
     <Grid>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
-            <xctk:ColorPicker x:Name="colorPicker" Width="200" Height="25" SelectedColorChanged="ChangeColor" />
-            <TextBlock x:Name="colorName" FontSize="16" FontWeight="Bold" Text="Choose a color!" HorizontalAlignment="Center" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                <xctk:ColorPicker x:Name="colorPicker" Width="200" Height="25" SelectedColorChanged="ChangeColor" />
+                <TextBlock x:Name="colorName" FontSize="16" FontWeight="Bold" Text="Choose a color!" HorizontalAlignment="Center" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                <Button Content="Change gay's color!" Width="200" Height="25" Click="ChangeColor2" />
+                <TextBlock x:Name="colorName2" FontSize="16" FontWeight="Bold" Text="I am gay!" HorizontalAlignment="Center" />
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>

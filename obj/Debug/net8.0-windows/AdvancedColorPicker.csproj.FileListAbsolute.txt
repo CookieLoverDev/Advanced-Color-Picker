@@ -37,3 +37,4 @@ C:\Users\Victus\source\repos\AdvancedColorPicker\obj\Debug\net8.0-windows\refint
 C:\Users\Victus\source\repos\AdvancedColorPicker\obj\Debug\net8.0-windows\AdvancedColorPicker.pdb
 C:\Users\Victus\source\repos\AdvancedColorPicker\obj\Debug\net8.0-windows\AdvancedColorPicker.genruntimeconfig.cache
 C:\Users\Victus\source\repos\AdvancedColorPicker\obj\Debug\net8.0-windows\ref\AdvancedColorPicker.dll
+C:\Users\Victus\source\repos\AdvancedColorPicker\obj\Debug\net8.0-windows\AdvancedColorPicker.sourcelink.json
